@@ -1,0 +1,16 @@
+#ifndef INIT_FORCEDIMENSIONS_H
+#define INIT_FORCEDIMENSIONS_H
+
+#include <sofa/helper/config.h>
+
+#ifdef SOFA_BUILD_FORCEDIMENSIONS
+#define SOFA_FORCEDIMENSIONS_API SOFA_EXPORT_DYNAMIC_LIBRARY
+#else
+#define SOFA_FORCEDIMENSIONS_API SOFA_IMPORT_DYNAMIC_LIBRARY
+#endif
+
+/** Mainpage
+This is the main page of the plugin
+*/
+
+#endif // INIT_FORCEDIMENSIONS_H
